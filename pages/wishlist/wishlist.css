@@ -1,0 +1,47 @@
+@import url(/style.css);
+
+.btn-icon{
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.bx {
+    font-size: 1rem;
+}
+
+.card-header{
+    padding-bottom:0;
+    border-bottom: none;
+    justify-content: center;
+}
+
+.card-img{
+    height:12rem;
+}
+
+.flex-row .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    color:black
+}
+
+.quantity{
+    display: flex;
+    flex-direction: row;
+}
+    
+.input-box{
+    margin:1rem;
+    width:10%;
+}
+.main{
+    display:flex;
+    justify-content: center;
+    margin:5rem;
+}
+
+.card-horizontal{
+    margin-bottom: 4rem;
+}
