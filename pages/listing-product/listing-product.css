@@ -1,0 +1,60 @@
+@import url(/style.css);
+
+.container{
+    display:flex;
+    align-items: stretch;
+    gap:1rem;
+}
+  
+.sidenav {
+    display:flex;
+    flex-direction: column;
+    width: 25rem;  
+    background-color: var(--grey);
+}
+
+.seprator{
+        border-bottom: 1.5px solid;
+        margin:0.5rem;
+        padding-top:0rem;
+}
+  
+.main {
+      background-color: var(--grey-300);
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.flex-row{
+        display: flex;
+}
+
+.vertical-card{
+        margin:3rem;   
+}
+
+.flex-row .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+.btn-icon{
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.bx {
+    font-size: 1rem;
+}
+
+.card-header{
+    padding-bottom:0;
+    border-bottom: none;
+    justify-content: center;
+}
+
+.card-img{
+    height:12rem;
+}

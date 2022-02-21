@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://classy-ui.netlify.app/components/main.css">
+    <link rel="stylesheet" href="./listing-product.css">
+    <title>Book Stall</title>
+</head>
+<body>
+    <div class="conatiner">
+       
+        <header class="header">
+            <a class="favicon" href="/index.html">Book Stall</a>
+             <div class="header-nav">
+             <nav>
+                 <ul>
+                    <li><button class="btn btn-filled btn-yellow">Login<a href="../login/login.html"></a></button></li>
+                    <li><a href="#"><box-icon class="bx bx-heart" name='heart'></box-icon></a></li>
+                    <li><a href="#"><box-icon class="bx bx-cart" name='cart'></box-icon></a></li>
+                  </ul>
+              </nav>
+             </div>
+          </header>
+          <div class="flex-row">
+          <div class="sidenav">
+              <section class="seprator">
+              <h3 class="headline3">Filter</h3>
+              <p >Clear</p>
+              </section>
+              <section class="seprator">
+                  <h3>Price Range</h3>
+                 <input type="range" name="" id="price-range">
+             </section>
+             <section class="seprator">
+              <h3>Category</h3>
+                <div class="cateogry-item">
+                <input type="checkbox" name="horror" id="horror">
+                <label for="horror">Horror </label>
+            </div>
+            <div class="cateogry-item">
+                <input type="checkbox" name="adventure" id="adventure">
+                <label for="adventure">Adventure </label>
+            </div>
+            <div class="cateogry-item">
+                <input type="checkbox" name="comic" id="comic">
+                <label for="comic">Comic </label>
+            </div>
+            <div class="cateogry-item">
+                <input type="checkbox" name="scifi" id="scifi">
+                <label for="scifi">Science Fiction </label>
+            </div>
+            <div class="cateogry-item">
+                <input type="checkbox" name="classic" id="classic">
+                <label for="classic">Classic </label>
+            </div>
+            <div class="cateogry-item">
+                <input type="checkbox" name="historical" id="historical">
+                <label for="historical">Historical Fiction </label>
+            </div>
+            <div class="cateogry-item">
+                <input type="checkbox" name="detective-mystery" id="detective-mystery">
+                <label for="detective-mystery">Detective and Mystery </label>
+            </div>
+          </section>
+          <section class="seprator">
+              <h3 class="headline3">Sort By</h3>
+              <div class="sorting-item">
+                <input type="checkbox" name="highToLow" id="highToLow">
+                <label for="highToLow">Price: High to Low</label>
+            </div>
+            <div class="sorting-item">
+                <input type="checkbox" name="lowToHigh" id="lowTohigh">
+                <label for="lowToHigh">Price: Low to High</label>
+            </div>
+          </section>
+          <section class="seprator">
+              <h3 class="headline3">Ratings</h3>
+              <div class="rating-item">
+                <input type="checkbox" name="5rating" id="5rating">
+                <label for="5rating">5 stars & above</label>
+            </div>
+              <div class="rating-item">
+                <input type="checkbox" name="4rating" id="4rating">
+                <label for="4rating">4 stars & above</label>
+            </div>
+              <div class="rating-item">
+                <input type="checkbox" name="3rating" id="3rating">
+                <label for="3rating">3 stars & above</label>
+            </div>
+              <div class="rating-item">
+                <input type="checkbox" name="2rating" id="2rating">
+                <label for="2rating">2 stars & above</label>
+            </div>
+              <div class="rating-item">
+                <input type="checkbox" name="1rating" id="1rating">
+                <label for="1rating">1 stars & above</label>
+            </div>
+          </section>
+          </div>
+          <div class="main">
+            <div class="vertical-card">
+                <div class="card-header">
+                    <div class="img-container">
+                        <img class="card-img" src="/images/harappa.jpg" alt="img">
+                        <i class='card-wishlist-icon bx bx-heart'></i>
+                    </div>
+                </div>
+                <div class="card-body ">
+                    <div class="item-price">Rs. 500</div>
+                    <div class="description">HARAPPA:Curse Of The Blood River</div>
+                </div>
+                <div class="footer">
+                    <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                        <i class='btn-icon bx bxs-cart'></i>Add to cart
+                    </button>
+          
+                    <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                        <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                    </button>
+                </div>
+            </div>
+            <div class="vertical-card">
+                <div class="card-header">
+                    <div class="img-container">
+                        <img class="card-img" src="/images/harappa.jpg" alt="img">
+                        <i class='card-wishlist-icon bx bx-heart'></i>
+                    </div>
+                </div>
+                <div class="card-body ">
+                    <div class="item-price">Rs. 500</div>
+                    <div class="description">HARAPPA:Curse Of The Blood River</div>
+                </div>
+                <div class="footer">
+                    <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                        <i class='btn-icon bx bxs-cart'></i>Add to cart
+                    </button>
+          
+                    <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                        <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                    </button>
+                </div>
+            </div>
+            <div class="vertical-card">
+                <div class="card-header">
+                    <div class="img-container">
+                        <img class="card-img" src="/images/harappa.jpg" alt="img">
+                        <i class='card-wishlist-icon bx bx-heart'></i>
+                    </div>
+                </div>
+                <div class="card-body ">
+                    <div class="item-price">Rs. 500</div>
+                    <div class="description">HARAPPA:Curse Of The Blood River</div>
+                </div>
+                <div class="footer">
+                    <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                        <i class='btn-icon bx bxs-cart'></i>Add to cart
+                    </button>
+          
+                    <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                        <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                    </button>
+                </div>
+            </div>
+            <div class="vertical-card">
+                <div class="card-header">
+                    <div class="img-container">
+                        <img class="card-img" src="/images/harappa.jpg" alt="img">
+                        <i class='card-wishlist-icon bx bx-heart'></i>
+                    </div>
+                </div>
+                <div class="card-body ">
+                    <div class="item-price">Rs. 500</div>
+                    <div class="description">HARAPPA:Curse Of The Blood River</div>
+                </div>
+                <div class="footer">
+                    <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                        <i class='btn-icon bx bxs-cart'></i>Add to cart
+                    </button>
+          
+                    <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                        <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                    </button>
+                </div>
+            </div>
+            <div class="vertical-card">
+                <div class="card-header">
+                    <div class="img-container">
+                        <img class="card-img" src="/images/harappa.jpg" alt="img">
+                        <i class='card-wishlist-icon bx bx-heart'></i>
+                    </div>
+                </div>
+                <div class="card-body ">
+                    <div class="item-price">Rs. 500</div>
+                    <div class="description">HARAPPA:Curse Of The Blood River</div>
+                </div>
+                <div class="footer">
+                    <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                        <i class='btn-icon bx bxs-cart'></i>Add to cart
+                    </button>
+          
+                    <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                        <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                    </button>
+                </div>
+            </div>
+         
+            <div class="vertical-card">
+                <div class="card-header">
+                    <div class="img-container">
+                        <img class="card-img" src="/images/harappa.jpg" alt="img">
+                        <i class='card-wishlist-icon bx bx-heart'></i>
+                    </div>
+                </div>
+                <div class="card-body ">
+                    <div class="item-price">Rs. 500</div>
+                    <div class="description">HARAPPA:Curse Of The Blood River</div>
+                </div>
+                <div class="footer">
+                    <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                        <i class='btn-icon bx bxs-cart'></i>Add to cart
+                    </button>
+          
+                    <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                        <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                    </button>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
